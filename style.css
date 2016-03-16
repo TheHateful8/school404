@@ -1,0 +1,11 @@
+body, html{
+    margin:0px;
+    padding:0px;
+}
+#menu{
+    height: 75px;
+}
+
+#contenu{
+    background-color: #FFDB00;
+}
