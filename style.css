@@ -3,9 +3,68 @@ body, html{
     padding:0px;
 }
 #menu{
+    width: 100%;
     height: 75px;
+    position: fixed;
+    box-shadow: 1px 1px 1px #AAA;
+    background-color: white;
+    
+}
+
+ul{
+    float: right;
+    display: table-cell;
+}
+
+li{
+    display: table-cell;
+    padding-right: 20px;
+}
+
+ul li a{
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: helvetica;
+    font-weight: normal;
+    color: #262626;
+    text-decoration: none;
 }
 
 #contenu{
+    padding-top: 175px;
     background-color: #FFDB00;
+    font-family: "Apercu Regular", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    line-height: 62px;
+}
+
+h2{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    line-height: 40px;    
+}
+
+.hamburger{
+    padding-left: 30px;
+    border: none;
+    background-color: transparent;
+    padding-top: 25px
+    
+}
+
+#button{
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: normal;
+    border-bottom: none;
+    
 }
