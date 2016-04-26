@@ -59,12 +59,14 @@ h2{
     
 }
 
-#button{
+.back{
     font-size: 12px;
     line-height: 18px;
     letter-spacing: 1px;
     color: white;
     font-weight: normal;
-    border-bottom: none;
+    text-decoration: none;
+    background-color: transparent;
+    border:none;
     
 }
