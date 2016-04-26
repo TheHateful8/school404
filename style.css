@@ -87,24 +87,24 @@ h2{
     padding-bottom: 140px;
 }
 
-#footer a{
+#content a{
     color:white;
     font-family: "Apercu Regular", Helvetica, Arial, sans-serif;
     font-size: 15px;
     line-height: 21px;
+    margin-top: 0px;
+
     
 }
 
 #legals a{
     color: #b2b2b2;
-    font-family: "Apercu Regular", Helvetica, Arial, sans-serif;
 }
 
-.yieldmo{
-    display: block
+#yieldmo{
     padding-left: 30px;
     border: none;
     background-color: transparent;
-    padding-top: 25px
+    background:transparent url(images/yieldmo.svg) no-repeat 5px center;
 }
 
