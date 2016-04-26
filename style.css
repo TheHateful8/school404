@@ -85,7 +85,26 @@ h2{
     background-color: #262626;
     font-family: "Apercu Regular", Helvetica, Arial, sans-serif;
     padding-bottom: 140px;
-    color: white;
 }
 
+#footer a{
+    color:white;
+    font-family: "Apercu Regular", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+    
+}
+
+#legals a{
+    color: #b2b2b2;
+    font-family: "Apercu Regular", Helvetica, Arial, sans-serif;
+}
+
+.yieldmo{
+    display: block
+    padding-left: 30px;
+    border: none;
+    background-color: transparent;
+    padding-top: 25px
+}
 
