@@ -73,15 +73,15 @@ h2{
     text-transform: uppercase;
     display: inline-block;
     cursor: pointer;
+    opacity: 0.8;
     padding: 15px 6px 15px 60px;
     background:transparent url(images/button.svg) no-repeat 5px center;
     margin-top: 10px;
     margin-left: 50px;
-    
 }
 
 #footer{
-    padding-top: 175px;
+    padding-top: 90px;
     background-color: #262626;
     font-family: "Apercu Regular", Helvetica, Arial, sans-serif;
     padding-bottom: 140px;
@@ -93,18 +93,34 @@ h2{
     font-size: 15px;
     line-height: 21px;
     margin-top: 0px;
+    width: 200px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
 
-    
+#content ul li{
+    display: list-item;
+    list-style-type:none;
 }
 
 #legals a{
     color: #b2b2b2;
+    float: left;
 }
+
+#legals ul li{
+    display: list-item;
+    list-style-type:none;
+}
+
 
 #yieldmo{
     padding-left: 30px;
     border: none;
     background-color: transparent;
-    background:transparent url(images/yieldmo.svg) no-repeat 5px center;
+    padding-top: 0px;
+    margin-left: 90px;
 }
 
