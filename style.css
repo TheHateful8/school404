@@ -72,12 +72,15 @@ h2{
     border:none;
     text-transform: uppercase;
     display: inline-block;
-    cursor: pointer;
-    opacity: 0.8;
     padding: 15px 6px 15px 60px;
     background:transparent url(images/button.svg) no-repeat 5px center;
     margin-top: 10px;
     margin-left: 50px;
+}
+
+.bback:hover{
+    cursor: pointer;
+    opacity: 0.5;
 }
 
 #footer{
